@@ -1,4 +1,4 @@
-# Contact Management App (MERN Stack)
+# Contact Management App 
 
 A full-stack web app built from scratch with React, Node.js, Express and MongoDB. Users and admins have separate signup/login flows. Users can send messages and view their own, while admins get a dashboard with full CRUD over all messages.
 
@@ -55,7 +55,7 @@ contact_project/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Ezzah-tahir/Contact-Form>
 cd contact_project
 ```
 
@@ -142,11 +142,7 @@ This project is intentionally kept simple for demonstration purposes:
 - Anyone can choose the `admin` role at signup.
 - The user session is stored in `localStorage`.
 
-**Planned improvements for production:**
-- JWT authentication with server-side admin middleware
-- Restrict admin signup (invite-only or seeded admin)
-- Input validation and error handling
-- Environment variables (`.env`) for the database URL and port
+
 
 ## Author
 
